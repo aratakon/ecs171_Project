@@ -2,10 +2,10 @@
 
 The goal of this project is to accurately predict the quality of an apple as 'good' or 'bad' based on the following features: size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality. This project involves the development of three supervised machine learning models: Multi-Layer Perceptron (MLP), Support Vector Machine (SVM), and Random Forest (RF). Each model is trained on an apple quality dataset obtained from Kaggle: <https://www.kaggle.com/datasets/markmedhat/apple-quality>. This is a highly rated, cleaned, and standardized dataset.
 
-# Relevant Files
-- ECS 171 Project Data Preprocessing and EDA.ipynb: A Jupyter notebook containing the data preprocessing, exporatory data analysis (EDA), and model development and evaluation steps.
-- apple_quality.csv: A CSV file containing the complete apple quality dataset, including the following features: apple id, size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality.
-- html: A folder containing the files for a simple HTML website that can be run locally.
+## Relevant Files
+- **ECS 171 Project Data Preprocessing and EDA.ipynb**: A Jupyter notebook containing the data preprocessing, exporatory data analysis (EDA), and model development and evaluation steps.
+- **apple_quality.csv**: A CSV file containing the complete apple quality dataset, including the following features: apple id, size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality.
+- **html**: A folder containing the files for a simple HTML website that can be run locally.
 
 ## How to run the HTML website locally:
 1. First download the 'html' folder, and move or copy the 'apple_quality.csv' file into the html folder. <br>
