@@ -4,11 +4,11 @@ Now, move into the html folder.
    ```(bash)
    cd html
 3. Create and activate a new virtual environment:
- ```(bash)
-  pip install virtualenv
-  python3 -m venv
-  source venv/bin/activate
- ```
+    ```(bash)
+     pip install virtualenv
+     python3 -m venv
+     source venv/bin/activate
+    ```
 3. Install the necessary libraries:
    ```(bash)
    pip install tensorflow flask joblib pandas seaborn scikit-learn scikeras
