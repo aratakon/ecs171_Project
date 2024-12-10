@@ -28,6 +28,6 @@ Now, move into the html folder.
    ```(bash)
    python3 app.py
 5. The frontend is live at the following link: <br>
-    <http://127.0.0.1:5500/
+    <http://127.0.0.1:5500/>
    
 6. Enter values for all fields and make a prediction!
