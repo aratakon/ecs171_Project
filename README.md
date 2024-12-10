@@ -1,6 +1,9 @@
 ## How to run the HTML website locally:
-1. First download the 'html' folder, and move or copy the 'apple_quality.csv' file into the html folder.
-2. Create and activate a new virtual environment:
+1. First download the 'html' folder, and move or copy the 'apple_quality.csv' file into the html folder. <br>
+Now, move into the html folder.
+   ```(bash)
+   cd html
+3. Create and activate a new virtual environment:
  ```(bash)
   pip install virtualenv
   python3 -m venv
