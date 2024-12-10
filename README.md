@@ -4,7 +4,9 @@ The goal of this project is to accurately predict the quality of an apple as 'go
 
 ## Relevant Files
 - **ECS 171 Project Data Preprocessing and EDA.ipynb**: A Jupyter notebook containing the data preprocessing, exporatory data analysis (EDA), and model development and evaluation steps.
+
 - **apple_quality.csv**: A CSV file containing the complete apple quality dataset, including the following features: apple id, size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality.
+
 - **html**: A folder containing the files for a simple HTML website that can be run locally.
 
 ## How to run the HTML website locally:
