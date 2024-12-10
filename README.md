@@ -1,6 +1,6 @@
 # ECS 171 Apple Classification Project
 
-The goal of this project is to accurately predict the quality of an apple ('good' or 'bad') based on the following features: size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality. This project involves the development of three supervised machine learning models: Multi-Layer Perceptron (MLP), Support Vector Machine (SVM), and Random Forest (RF). Each model is trained on an apple quality dataset obtained from Kaggle: <https://www.kaggle.com/datasets/markmedhat/apple-quality>. This is a highly rated, cleaned, and standardized dataset.
+The goal of this project is to accurately predict the quality of an apple as 'good' or 'bad' based on the following features: size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality. This project involves the development of three supervised machine learning models: Multi-Layer Perceptron (MLP), Support Vector Machine (SVM), and Random Forest (RF). Each model is trained on an apple quality dataset obtained from Kaggle: <https://www.kaggle.com/datasets/markmedhat/apple-quality>. This is a highly rated, cleaned, and standardized dataset.
 
 # Relevant Files
 - ECS 171 Project Data Preprocessing and EDA.ipynb: A Jupyter notebook containing the data preprocessing, exporatory data analysis (EDA), and model development and evaluation steps.
