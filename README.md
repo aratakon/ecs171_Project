@@ -17,7 +17,7 @@ Now, move into the html folder.
 3. Create and activate a new virtual environment:
     ```(bash)
      pip install virtualenv
-     python3 -m venv
+     python3 -m venv venv
      source venv/bin/activate
     ```
 3. Install the necessary libraries:
