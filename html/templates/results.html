@@ -4,13 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Apples!</title>
+    <style>
+        body{
+    background-color: #EE4F4F;
+    
+}
+
+h1{
+
+    color: azure;
+    align-items: center; /* Centers content vertically */
+    font-size: 80px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.boxes{
+    position: absolute; /* or relative */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.button{
+    background-color: azure;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EE4F4F;
+    padding: 10px 10px;
+
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}
+</style>
+
 </head>
 <body>
     <h1>Prediction Result</h1>
-    <p>Apple quality prediction: {{ prediction }}</p>
-    <a href="/">
-        <button>Back to Predictor</button>
-    </a>
+    <section class="boxes">
+        <p>Apple quality prediction: {{ prediction }}</p>
+        <a href="/">
+            <button class="button">Back to Predictor</button>
+        </a>
+    </section>
+   
 </body>
 </html>
