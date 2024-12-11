@@ -2,33 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Machine Learning Classification Project</title>
+    <title>Apples!</title>
+    <link rel="stylesheet" link href="style.css">
+    <style>
+            body{
+        background-color: #EE4F4F;
+        
+    }
+
+    h1{
+    
+        color: azure;
+        align-items: center; /* Centers content vertically */
+        font-size: 80px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .boxes{
+        position: absolute; /* or relative */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: azure;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .button{
+        background-color: azure;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #EE4F4F;
+        padding: 10px 10px;
+
+        text-align: center;
+        cursor: pointer;
+        border: 0;
+    }
+    </style>
+
 </head>
 <body>
-    <h1>Machine Learning Classification Project</h1>
-    <form method="POST" action="/predict">
-        <label for="size">Enter size:</label>
-        <input type="text" name="size" id="size" required>
-        <br>
-        <label for="weight">Enter weight:</label>
-        <input type="text" name="weight" id="weight" required>
-        <br>
-        <label for="sweetness">Enter sweetness:</label>
-        <input type="text" name="sweetness" id="sweetness" required>
-        <br>
-        <label for="crunchiness">Enter crunchiness:</label>
-        <input type="text" name="crunchiness" id="crunchiness" required>
-        <br>
-        <label for="juiciness">Enter juiciness:</label>
-        <input type="text" name="juiciness" id="juiciness" required>
-        <br>
-        <label for="ripeness">Enter ripeness:</label>
-        <input type="text" name="ripeness" id="ripeness" required>
-        <br>
-        <label for="acidity">Enter acidity:</label>
-        <input type="text" name="acidity" id="acidity" required>
-        <br>
-        <button type="submit">Predict</button>
-    </form>
+    <h1>Apple Quality Assessment Using ML Model!!</h1>
+    <section class="boxes">
+        <form method="POST" action="/predict">
+            <label for="size">Enter Size (Recommended Scale: Smallest -7 to largest 7):</label>
+            <input type="text" name="size" id="size" required>
+            <br>
+            <label for="weight">Enter weight (Recommended Scale: lightest -7 to heaviest 7):</label>
+            <input type="text" name="weight" id="weight" required>
+            <br>
+            <label for="sweetness">Enter sweetness (Recommended Scale: not sweet -7 to very sweet 7):</label>
+            <input type="text" name="sweetness" id="sweetness" required>
+            <br>
+            <label for="crunchiness">Enter crunchiness (Recommended Scale: not crunchy -7 to very crunchy 7):</label>
+            <input type="text" name="crunchiness" id="crunchiness" required>
+            <br>
+            <label for="juiciness">Enter juiciness (Recommended Scale: not juicy -7 to very juicy 7):</label>
+            <input type="text" name="juiciness" id="juiciness" required>
+            <br>
+            <label for="ripeness">Enter ripeness (Recommended Scale: not ripe -7 to very ripe 7):</label>
+            <input type="text" name="ripeness" id="ripeness" required>
+            <br>
+            <label for="acidity">Enter acidity (Recommended Scale: not acidic -7 to very acidic 7):</label>
+            <input type="text" name="acidity" id="acidity" required>
+            <br>
+            <button class= "button"  type="submit">Predict</button>
+        </form>
+    </section>
+   
 </body>
 </html>
